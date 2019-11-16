@@ -43,8 +43,19 @@ ul li:nth-child(1) {
   height: 700px;
 }
 
+
+
 ul li:nth-child(2) {
   text-align: right;
+}
+
+
+ul li:nth-child(2) img{
+transition: transform 1s;
+}
+
+img:hover {
+  transform: rotate(360deg);
 }
 
 img {
@@ -101,13 +112,13 @@ h3:hover{
 
 .grid-item img{
     width:100%;
-    transition: transform 1s;
+/*     transition: transform 1s; */
 }
-
+/* 
 img:hover {
   transform: rotate(360deg);
 }
-
+ */
 section {
   clear: both;
    background-color:#FFFFFF;
