@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
      padding: 0;
@@ -414,186 +413,17 @@ font-size: 26px;
 .language a{
     display: flex;
     justify-content: space-around;
-    padding-right: 20px;
+    padding: 5px;
     font-size: 18px;
     color:#01689b;
-    /* border:1px solid #007bc7;
-    border-spacing: 20px; */
+    border:1px solid #007bc7;
+    border-spacing: 60px;
+    margin:20px;
+    text-align: center;
 }
 
-
-
-
-/* 
-
-
-.Uitgelicht{
-
-     background-color:#fff;
-    display: flex;
-    flex-flow: wrap;
-    width: 90%;
+.selected{
+    border:none;
+    color:black;
 }
-.Uitgelicht img{
-    width: 369px;
-    height: 246px;
-}
-
-.spot-title h2{
-    font-size: 26px;
-    color:#000000;
-    margin:-5px 15px 20px;
-}
-
-.spot-main{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    flex-grow: 3;
-}
-.spot-content1{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    width:400px;
-    height: 450px;
-    border:1px solid red;
-    padding:60px 0 30px;
-}
-
-.spot-content2{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    width:400px;
-    height: 450px;
-    border:1px solid red;
-    padding:60px 0 30px; 
-}
-
-.spot-content3{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    width:400px;
-    height: 450px;
-    border:1px solid red;
-    padding:60px 0 30px; 
-}
-
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-@media screen and (min-width: 768px){
-    nav ul{
- 
-    display:flex;
-}
-
-nav li{
-    display: 1 1 1;
-}
-
-
-nav{
-    background-color: #01689b;
-    display: flex;
-    justify-content: space-between;
-} */
-
-
-
-
-/*  
-
-.wrapper{
-    background-color: #01689b;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 8vh;
-}
-
-.menu{
-display: flex;
-justify-content: center;
-background-color: red;
-font-size: 19.2px;
-}
-
-.menu ul{
-padding:20px;
-flex: 1;
-}
-
-.menu ul li:first-child{
-    flex: 5;
-}
-.menu a{
-    color: #fff;
-}
-/*  
-
-
-/*  
-
-.menu ul{
-font-size: 19.2px;
-padding: 10px 5px;
-display:flex;
-justify-content: center;
- 
-}
-
-  
- 
-
-body, h1,h2,h3,h4,h5,h6,p,ul,li,a{
-    list-style: none;
-    text-decoration:none;
-    list-style: none;
-}
-/* 
-.logo{
-    margin: 0 0 0 50%;
-}
-
-.logo img{
-    display: inline-block;
-    /* margin-left: -25px; 
-}
-
-img {
-    border:0;
-}
-
-.navbar{
-    background-color: #01689B;
-    padding: 15px;
-    clear: both;
-    overflow: hidden;
-    color:white}
-
- */
 
