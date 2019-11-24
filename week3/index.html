@@ -4,102 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>TNW</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-<div class="logo">
-    <img src="<img data-fallback="/binaries/content/gallery/rijksoverheid/channel-afbeeldingen/logos/logo-fallback-ro.svg" src="https://www.rijksoverheid.nl/binaries/content/gallery/rijksoverheid/channel-afbeeldingen/logos/logo-ro.svg" alt="Rijksoverheid" id="logotype">" width="314" height="125">
-</div>
-<!-- navbar -->
-<nav class="navbar">
-    <div class="nav-left">
-    <ul>
-        <li><a href="">Home</a></li>
-    </ul>  
-    </div>
+   <header>
+       <div class="logo">
+           <img src="https://www.rijksoverheid.nl/binaries/content/gallery/rijksoverheid/channel-afbeeldingen/logos/logo-ro.svg">
+       </div>
+   </header>
     
-    <div class="nav-right">
-        <ul>
-            <li><a href=""></a>Actueel</li>
-            <li><a href=""></a>Onderwerpen</li>
-            <li><a href=""></a>Ministeries</li>
-            <li><a href=""></a>Regering</li>
-            <li><a href=""></a>Documenten</li>
-            <li><a href=""></a>Doe mee</li>
-        </ul>
-    </div>
+
+<!-- nav -->
+<div class="wrapper">
+    <nav>
+    <ul class="home">
+        <li><a href="">Home</a></li>
+    </ul>
+    <ul>
+        <li><a href="">Actueel</a></li>
+        <li><a href="">Onderwerpen</a></li>
+        <li><a href="">Ministeries</a></li>
+        <li><a href="">Regering</a></li>
+        <li><a href="">Documenten</a></li>
+        <li><a href="">Doe mee</a></li>
+    </ul>
+
 </nav>
+</div>
 
 <!--slider  -->
-<div class="wrapper">
-    <img src="https://github.com/ahmtysn/HYF-Module-HTMLCSSGIT/blob/master/week-3/reponsiveWebsite/images/headback.jpg?raw=true">
-    <!-- here is background-image -->
-<div class="topdesk-left">
-    <h2>Veel bekeken</h2>
-    <ul class="topdeske-list">
-    <li><a href="">Bedragen minimumloon 2019</a></li>
-    <li><a href="">Wat verandert er in het basispakket van de zorgverzekering</a></li>
-    <li><a href="">Maatregelen om stikstofprobleem op te lossen</a></li></li>
-    <li><a href="">Schoolvakanties</a></li>
-    <li><a href="">Antibioticaresistentie</a></li>
-    </ul>
-</div>
+<section class="slider">
+    
+    <div class="slider-left">
+        <h2>Veel bekeken</h2>
+        <ul class="slider-list">
+            <li><a href="">> Bedragen minimumloon 2019</a></li>
+            <li><a href="">> Wat verandert er in het basispakket van de zorgverzekering</a></li>
+            <li><a href="">> Maatregelen om stikstofprobleem op te lossen</a></li>
+            <li><a href="">> Schoolvakanties</a></li>
+            <li><a href="">> Antibioticaresistentie</a></li>
+        </ul>
+    </div>
 
-<div class="topdesk-right">
-    <input type="search" placeholder="zoeken">
-</div>
-</div>
+    <form class="input">
+        <i class="fa fa-search"></i>
+        <input type="search" placeholder="Zoeken">
+    </form>
+<!-- footer -->
+</section>
 
 <!-- main -->
+<main>
+<!-- main1 -->
+<section class="main1">
+    <ul class="main1-lists">
+        <li class="1">
+            <a href="#">
+                <div class="content">
+                    <h3>Belastingen, uitkeringen en toeslagen</h3>
+                    <p>Bijstand, AOW, WW-uitkering, Inkomstenbelasting, Wajong ...</p>
+                </div>
+            </a>
+        </li>
 
-<div class="main-item">
-    <ul class="main-lists">
-    <li class="1">
-        <a href="#">
-            <div class="content">
-                <h3>Belastingen, uitkeringen en toeslagen</h3>
-                <p>Bijstand, AOW, WW-uitkering, Inkomstenbelasting, Wajong ...</p>
-            </div>
-        </a>
-    </li>
+        <li class="2">
+            <a href="#">
+                <div class="content">
+                    <h3>Bouwen en wonen</h3>
+                    <p>Huurwoning, Huurverhoging, Koopwoning, Energielabel, Bouwregelgeving...</p>
+                </div>
+            </a>
+        </li>
 
-    <li class="2">
-        <a href="#">
-            <div class="content">
-                <h3>Bouwen en wonen</h3>
-                <p>Huurwoning, Huurverhoging, Koopwoning, Energielabel, Bouwregelgeving...</p>
-            </div>
-        </a>
-    </li>
+        <li class="3">
+            <a href="#">
+                <div class="content">
+                    <h3>Economie</h3>
+                    <p>Ondernemen en innovatie, Overheidsfinanciën, Duurzame economie, Zelfstandigen zonder personeel
+                        ...</p>
+                </div>
+            </a>
+        </li>
 
-    <li class="3">
-        <a href="#">
-            <div class="content">
-                <h3>Economie</h3>
-                <p>Ondernemen en innovatie, Overheidsfinanciën, Duurzame economie, Zelfstandigen zonder personeel ...</p>
-            </div>
-        </a>
-    </li>
+        <li class="4">
+            <a href="#">
+                <div class="content">
+                    <h3>Familie, zorg en gezondheid</h3>
+                    <p>Zorgverzekering, Zorg en ondersteuning thuis, Trouwen, samenlevingscontract en geregistreerd
+                        partnerschap
+                        ...</p>
+                </div>
+            </a>
+        </li>
 
-    <li class="4">
-        <a href="#">
-            <div class="content">
-                <h3>Familie, zorg en gezondheid</h3>
-                <p>Zorgverzekering, Zorg en ondersteuning thuis, Trouwen, samenlevingscontract en geregistreerd partnerschap
-                    ...</p>
-            </div>
-        </a>
-    </li>
-
-    <li class="5">
-        <a href="#">
-            <div class="content">
-                <h3>Internationale samenwerking</h3>
-                <p>Europese Unie, Brexit, Mensenrechten, Handelsverdragen EU ...</p>
-            </div>
-        </a>
+        <li class="5">
+            <a href="#">
+                <div class="content">
+                    <h3>Internationale samenwerking</h3>
+                    <p>Europese Unie, Brexit, Mensenrechten, Handelsverdragen EU ...</p>
+                </div>
+            </a>
 
         <li class="6">
             <a href="#">
@@ -163,23 +171,26 @@
                 </div>
             </a>
         </li>
-      </ul>
-    </div>
+    </ul>
+</section>
 
-<hr>
-    <!-- Uitgelicht -->
-    <section class="Uitgelicht">
+<!-- main2 -->
+<section class="main2">
 <div class="spot-title">
     <a href="#"><h2>Uitgelicht</h2></a>
 </div>
 
+
+<div class="spot-content">
+
 <div class="spot-content1">
     <a href="#">
-        <h3>PFAS</h3>
+        
         <div class="spot-image">
             <img src="pfas.jpg"
                 alt="#">
         </div>
+        <h3>PFAS</h3>
         <div class="spot-text">
             <p>Bekijk de tijdelijke regels die sinds juli 2019 gelden voor de hoeveelheden PFAS in de grond.&nbsp;</p>
         </div>
@@ -188,143 +199,161 @@
 
 <div class="spot-content2">
     <a href="#">
-        <h3>Helpdesk Stikstof</h3>
+       
         <div class="spot-image">
             <img src="help.jpg" alt="#">
         </div>
+        <h3>Helpdesk Stikstof</h3>
         <div class="spot-text">
-            <p>Iedereen met vragen over stikstof of het aanvragen van een vergunning kan terecht bij de Helpdesk Stikstof BIJ 12.</p>
+            <p>Iedereen met vragen over stikstof of het aanvragen van een vergunning kan terecht bij de Helpdesk Stikstof BIJ.</p>
         </div>
     </a>
     </div>
 
 <div class="spot-content3">
     <a href="#">
-        <h3>Voorkom woninginbraak</h3>
+       
         <div class="spot-image">
             <img src="voorkom.jpg"
                 alt="#">
         </div>
+        <h3>Voorkom woninginbraak</h3>
         <div class="spot-text">
             <p>Houd inbrekers buiten de deur. Gebruik alleen goedgekeurde sloten op deuren en ramen.</p>
         </div>
     </a>
-    </div>
+</div>   
+</div>
+<!-- up-spot-content-div -->
 </section>
 <hr>
-<!-- Nieuws -->
 
-<section class="Nieuws">
-    <a href="#"><h2>Nieuws</h2></a>
+<!-- main3-nieuws -->
 
+<section class="main3">
+    <a href="#">
+        <h2>Nieuws</h2>
+    </a>
+
+    <div class="Nieuws-content">
+        
     <div class="Nieuws1">
         <a href="#">
-         <h3>Nieuwe behandeling leukemie na prijsonderhandeling in basispakket</h3>
-         <div class="Nieuws-text1">
-         <p><span class="date">21-11-2019 | 17:19</span>
-         </p>
-         <p>Patiënten met chronische lymfatische leukemie (CLL) krijgen toegang tot een nieuwe combinatie van geneesmiddelen.
-        Minister Bruno ...</p>
-     </div>
-    </a>
-</div>
+            <h3>Nieuwe behandeling leukemie na prijsonderhandeling in basispakket</h3>
+            <div class="Nieuws-text1">
+                <p><span class="date">21-11-2019 | 17:19</span>
+                </p>
+                <p>Patiënten met chronische lymfatische leukemie (CLL) krijgen toegang tot een nieuwe combinatie van
+                    geneesmiddelen.
+                    Minister Bruno ...</p>
+            </div>
+        </a>
+    </div>
 
     <div class="Nieuws2"><a href="#">
-     <h3>Minister-president Rutte en staatssecretaris Broekers-Knol brengen bezoek aan Nigeria</h3>
-     <div class="Nieuws-text1">
-         <p>
-             <span class="date">21-11-2019 | 13:01</span>
-         </p>
-         <p>Minister-president Rutte en staatssecretaris Broekers-Knol van Justitie en Veiligheid zijn op dinsdag 26 november 2019
-        in Nigeria ...</p>
-     </div>
-    </a>
-</div>
+            <h3>Minister-president Rutte en staatssecretaris Broekers-Knol brengen bezoek aan Nigeria</h3>
+            <div class="Nieuws-text1">
+                <p>
+                    <span class="date">21-11-2019 | 13:01</span>
+                </p>
+                <p>Minister-president Rutte en staatssecretaris Broekers-Knol van Justitie en Veiligheid zijn op dinsdag
+                    26 november 2019
+                    in Nigeria ...</p>
+            </div>
+        </a>
+    </div>
 
     <div class="Nieuws3"><a href="#">
-     <h3>Minister Blok in ether Noord-Korea</h3>
-     <div class="Nieuws-text1">
-         <p>
-             <span class="date">21-11-2019 | 11:39</span>
-         </p>
-         <p>Tijdens zijn bezoek aan Zuid-Korea is minister Stef Blok van Buitenlandse Zaken ook in Noord-Korea, en wel via de ether.
-        Op het ...</p>
-     </div>
-    </a>
-</div>
+            <h3>Minister Blok in ether Noord-Korea</h3>
+            <div class="Nieuws-text1">
+                <p>
+                    <span class="date">21-11-2019 | 11:39</span>
+                </p>
+                <p>Tijdens zijn bezoek aan Zuid-Korea is minister Stef Blok van Buitenlandse Zaken ook in Noord-Korea,
+                    en wel via de ether.
+                    Op het ...</p>
+            </div>
+        </a>
+    </div>
 
     <div class="Nieuws4"><a href="#">
-     <h3>Schiphol wint Kristalprijs 2019</h3>
-     <div class="Nieuws-text1">
-         <p>
-             <span class="date">20-11-2019 | 17:15</span>
-         </p>
-         <p>Royal Schiphol Group wint de Kristalprijs 2019, de prijs voor de meest transparante verslaggeving over het financiële
-        jaar 2018. ...</p>
-     </div>
-    </a>
-</div>
+            <h3>Schiphol wint Kristalprijs 2019</h3>
+            <div class="Nieuws-text1">
+                <p>
+                    <span class="date">20-11-2019 | 17:15</span>
+                </p>
+                <p>Royal Schiphol Group wint de Kristalprijs 2019, de prijs voor de meest transparante verslaggeving
+                    over het financiële
+                    jaar 2018. ...</p>
+            </div>
+        </a>
+    </div>
 
     <div class="Nieuws5"><a href="#">
-     <h3>Jaarplan 2020 Belastingdienst: inzicht in keuzes uitvoering en toezicht</h3>
-     <div class="Nieuws-text1">
-         <p>
-             <span class="date">20-11-2019 | 15:05</span>
-         </p>
-         <p>Het bieden van inzicht in de keuzes voor uitvoering en toezicht. Dit staat onder meer centraal in het Jaarplan 2020 van
-        de ...</p>
-     </div>
-    </a>
-</div>
+            <h3>Jaarplan 2020 Belastingdienst: inzicht in keuzes uitvoering en toezicht</h3>
+            <div class="Nieuws-text1">
+                <p>
+                    <span class="date">20-11-2019 | 15:05</span>
+                </p>
+                <p>Het bieden van inzicht in de keuzes voor uitvoering en toezicht. Dit staat onder meer centraal in het
+                    Jaarplan 2020 van
+                    de ...</p>
+            </div>
+        </a>
+    </div>
 
     <div class="Nieuws6"><a href="#">
-     <h3>Vijftig nieuwe waterstofbussen in het openbaar vervoer</h3>
-     <div class="Nieuws-text1">
-         <p>
-             <span class="date">20-11-2019 | 08:00</span>
-         </p>
-         <p>Vijftig nieuwe waterstofbussen erbij in het openbaar vervoer. Die afspraak ondertekenen minister Stientje Van Veldhoven
-        (Milieu ...</p>
-     </div>
-    </a>
+            <h3>Vijftig nieuwe waterstofbussen in het openbaar vervoer</h3>
+            <div class="Nieuws-text1">
+                <p>
+                    <span class="date">20-11-2019 | 08:00</span>
+                </p>
+                <p>Vijftig nieuwe waterstofbussen erbij in het openbaar vervoer. Die afspraak ondertekenen minister
+                    Stientje Van Veldhoven
+                    (Milieu ...</p>
+            </div>
+        </a>
+    </div>
 </div>
 
-<a href="#" class="more">Meer nieuws</a>
+</div>
+    <a href="#" class="more">> Meer nieuws</a>
+
+
 </section>
 
 <!-- box -->
 
 <div class="box">
-<div class="box1">
-    <a href="#" class="vragen">
-<div class="box-left">
+    <div class="box1">
+        <a href="#" class="vragen">
+            <div class="box-left">
 
-    <h3>Meld u aan voor de</h3>
-    <p>Bel Informatie</p>
-    <p>Rijksoverheid:</p>
-    <h3>1400</h3>  
-</div>
-    </a>
+                <h3>vragen?</h3>
+                <span>Bel Informatie</span>
+                <span>Rijksoverheid:</span><br>
+                <span class="number">1400</span>
+            </div>
+        </a>
     </div>
 
 
 
-<div class="box2">
-    <a href="#" class="vragen">
-<div class="box-left">
+    <div class="box2">
+        <a href="#" class="vragen">
+            <div class="box-left">
 
-    <h4>Meld u aan voor de</h4>
-    <p>Nieuwsbrief</p>
-    <p>Regeringsnieuws</p> 
-</div>
-    </a>
+                <h3>Meld u aan voor de</h3>
+                <span>Nieuwsbrief</span>
+                <span>Regeringsnieuws</span>
+            </div>
+        </a>
     </div>
 </div>
-
-
+</main>
 
 <!-- footer -->
-
+    
 <footer>
     <div class="footer">
         <div class="footer-title">
@@ -357,19 +386,26 @@
             </ul>
         </div>
     </div>
-</footer>
-<br>
-<div class="fixer"></div>
 
-<div class="language">
-    <ul>
-        <li><a href="#">Netherlands</a></li>
-        <li><a href="#">English</a></li>
-        <li><a href="#">Papiamento</a></li>
-        <li><a href="#">Papiamentu</a></li>
-        <li><a href="#">Nederlandse Gebarentaal</a></li>
-    </ul>
-</div>
+
+    <div class="language">
+        <ul>
+        
+            <li><a href="#"><strong class="selected">Netherlands</strong></a></li>
+       
+            <li><a href="#">English</a></li>
+            <li><a href="#">Papiamento</a></li>
+            <li><a href="#">Papiamentu</a></li>
+            <li><a href="#">Nederlandse Gebarentaal</a></li>
+        </ul>
+       
     </div>
+</footer>
+
+
+
+
+
+
 </body>
 </html>
